@@ -1,0 +1,18 @@
+#checkDelivery{
+    color: #000;
+    cursor: pointer;
+    background: linear-gradient(21.8deg, #E7BF88 14.29%, #FFF2CD 43.8%, #E7BF88 54.46%, #FFDD9D 62.82%, #E7BF88 85.71%);
+    font-weight: 600;
+    border: none;
+    padding: 11px;
+}
+
+#pincode{
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    background: none;
+    color: #000;
+    border: 1px solid #e7bf88;
+    
+}

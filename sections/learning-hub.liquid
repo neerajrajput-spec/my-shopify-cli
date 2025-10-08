@@ -1,0 +1,70 @@
+{% schema %}
+{
+  "name": "Learning Hub Multi Lang",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "content_block",
+      "name": "Heading + Paragraph",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "heading",
+          "label": "Heading",
+          "default": "<p>Welcome to the Dermalogica Learning Hub</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "paragraph",
+          "label": "Paragraph",
+          "default": "<p>This is your space to learn, grow and become even more confident as a skin therapist.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Learning Hub Multi Lang",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<section class="learning-hub-multi">
+  <div class="page-width text-center">
+    {% for block in section.blocks %}
+      <div class="content-block">
+        <div class="block-heading">
+          {{ block.settings.heading }}
+        </div>
+        <div class="block-paragraph">
+          {{ block.settings.paragraph }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+.learning-hub-multi .content-block {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.learning-hub-multi .block-heading {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0 auto 15px auto;
+}
+
+.learning-hub-multi .block-paragraph {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.6;
+}
+</style>
