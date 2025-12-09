@@ -8,14 +8,151 @@
  * ------------------------------------------------------------
  */
 {
-  "layout": "theme",
   "sections": {
-    "ecom-ecomposer-home-page-home": {
-      "type": "ecom-ecomposer-home-page-home",
+    "slideshow_39jNKm": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_74QnzV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/LED_Lamps_17.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": true,
+            "show_text_box": false,
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-8f7734ec-f692-41db-921f-3232431f94a7"
+          }
+        },
+        "slide_VVGew6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2422_66c6afa3-7e88-4cf4-96e5-cf9a0978cb75.jpg",
+            "image_overlay_opacity": 20,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": true,
+            "show_text_box": false,
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-8f7734ec-f692-41db-921f-3232431f94a7"
+          }
+        }
+      },
+      "block_order": [
+        "slide_74QnzV",
+        "slide_VVGew6"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "learning_hub_Mw3wty": {
+      "type": "learning-hub",
+      "blocks": {
+        "content_block_9bFRny": {
+          "type": "content_block",
+          "settings": {
+            "heading": "<p>Welcome to the Dermalogica Learning Hub</p>",
+            "paragraph": "<p>This is your space to learn, grow and become even more confident as a skin therapist. Here you will find online training videos that show you step-by-step process to<br/> deliver every Dermalogica service. Learn at your own pace or follow along during a service – expertise is now in your hands. Log in and start your learning journey today.</p>"
+          }
+        },
+        "content_block_iyb6aq": {
+          "type": "content_block",
+          "settings": {
+            "heading": "<h2><strong>डर्मालॉजिका लर्निंग हब में आपका स्वागत है</strong></h2>",
+            "paragraph": "<p>यह जगहआपकी है-सीखने,आगे बढ़ने और एकस्किनथेरेपिस्ट के रूप में और भी ज्यादा आत्मविश्वास पाने के लिए।यहाँआपकोऑनलाइन ट्रेनिंग वीडियो मिलेंगे जोहर डर्मालॉजिका सेवा को देने की प्रक्रिया दिखाते हैं।आपअपनी सुविधा के अनुसार सीख सकते हैं या सेवा के दौरान साथ-साथ भी देख सकते हैं–अब आपके हाथ में है।लॉगइन करें और आज ही अपनी लर्निंग यात्रा शुरू करें।</p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_block_9bFRny",
+        "content_block_iyb6aq"
+      ],
+      "name": "Learning Hub Intro",
       "settings": {}
+    },
+    "featured_collection_KPpQxn": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "decoration",
+        "products_to_show": 20,
+        "title": "Decoration collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "ecom-ecomposer-home-page-home"
+    "slideshow_39jNKm",
+    "featured_collection",
+    "featured_collection_KPpQxn",
+    "learning_hub_Mw3wty"
   ]
 }
