@@ -94,31 +94,6 @@
         "padding_bottom": 36
       }
     },
-    "learning_hub_Mw3wty": {
-      "type": "learning-hub",
-      "blocks": {
-        "content_block_9bFRny": {
-          "type": "content_block",
-          "settings": {
-            "heading": "<p>Welcome to the Dermalogica Learning Hub</p>",
-            "paragraph": "<p>This is your space to learn, grow and become even more confident as a skin therapist. Here you will find online training videos that show you step-by-step process to<br/> deliver every Dermalogica service. Learn at your own pace or follow along during a service – expertise is now in your hands. Log in and start your learning journey today.</p>"
-          }
-        },
-        "content_block_iyb6aq": {
-          "type": "content_block",
-          "settings": {
-            "heading": "<h2><strong>डर्मालॉजिका लर्निंग हब में आपका स्वागत है</strong></h2>",
-            "paragraph": "<p>यह जगहआपकी है-सीखने,आगे बढ़ने और एकस्किनथेरेपिस्ट के रूप में और भी ज्यादा आत्मविश्वास पाने के लिए।यहाँआपकोऑनलाइन ट्रेनिंग वीडियो मिलेंगे जोहर डर्मालॉजिका सेवा को देने की प्रक्रिया दिखाते हैं।आपअपनी सुविधा के अनुसार सीख सकते हैं या सेवा के दौरान साथ-साथ भी देख सकते हैं–अब आपके हाथ में है।लॉगइन करें और आज ही अपनी लर्निंग यात्रा शुरू करें।</p>"
-          }
-        }
-      },
-      "block_order": [
-        "content_block_9bFRny",
-        "content_block_iyb6aq"
-      ],
-      "name": "Learning Hub Intro",
-      "settings": {}
-    },
     "featured_collection_KPpQxn": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -147,12 +122,87 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "learning_hub_Mw3wty": {
+      "type": "learning-hub",
+      "blocks": {
+        "content_block_9bFRny": {
+          "type": "content_block",
+          "settings": {
+            "heading": "<p>Welcome to the Dermalogica Learning Hub</p>",
+            "paragraph": "<p>This is your space to learn, grow and become even more confident as a skin therapist. Here you will find online training videos that show you step-by-step process to<br/> deliver every Dermalogica service. Learn at your own pace or follow along during a service – expertise is now in your hands. Log in and start your learning journey today.</p>"
+          }
+        },
+        "content_block_iyb6aq": {
+          "type": "content_block",
+          "settings": {
+            "heading": "<h2><strong>डर्मालॉजिका लर्निंग हब में आपका स्वागत है</strong></h2>",
+            "paragraph": "<p>यह जगहआपकी है-सीखने,आगे बढ़ने और एकस्किनथेरेपिस्ट के रूप में और भी ज्यादा आत्मविश्वास पाने के लिए।यहाँआपकोऑनलाइन ट्रेनिंग वीडियो मिलेंगे जोहर डर्मालॉजिका सेवा को देने की प्रक्रिया दिखाते हैं।आपअपनी सुविधा के अनुसार सीख सकते हैं या सेवा के दौरान साथ-साथ भी देख सकते हैं–अब आपके हाथ में है।लॉगइन करें और आज ही अपनी लर्निंग यात्रा शुरू करें।</p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_block_9bFRny",
+        "content_block_iyb6aq"
+      ],
+      "name": "Learning Hub Intro",
+      "settings": {}
+    },
+    "1765606515d1e71602": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_2bebd4f_hGBfB9": {
+          "type": "ai_gen_block_2bebd4f",
+          "settings": {
+            "badge_text": "Limited Edition",
+            "heading": "Vintage Vibes",
+            "subheading": "Step back in time with our classic collection",
+            "button_text": "Shop Now",
+            "button_link": "",
+            "container_width": 1000,
+            "text_alignment": "center",
+            "padding_top": 80,
+            "padding_bottom": 80,
+            "background_color": "#f4e4c1",
+            "stripe_color": "#e8d4a8",
+            "stripe_spacing": 20,
+            "overlay_color_1": "#ff6b6b",
+            "overlay_color_2": "#4ecdc4",
+            "overlay_opacity": 0.1,
+            "badge_bg_color": "#ff6b6b",
+            "badge_text_color": "#ffffff",
+            "badge_border_color": "#d63447",
+            "badge_shadow_color": "#d63447",
+            "heading_size": 60,
+            "heading_color": "#2d3561",
+            "heading_shadow_color": "#ff6b6b",
+            "heading_shadow_color_2": "#4ecdc4",
+            "subheading_size": 20,
+            "subheading_color": "#5a5a5a",
+            "button_font_size": 16,
+            "button_bg_color": "#ffd93d",
+            "button_text_color": "#2d3561",
+            "button_border_color": "#2d3561",
+            "button_shadow_color": "#2d3561",
+            "button_border_radius": 0,
+            "show_stars": true,
+            "star_size": 40,
+            "star_color": "#ffd93d"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_2bebd4f_hGBfB9"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "slideshow_39jNKm",
     "featured_collection",
     "featured_collection_KPpQxn",
-    "learning_hub_Mw3wty"
+    "learning_hub_Mw3wty",
+    "1765606515d1e71602"
   ]
 }
